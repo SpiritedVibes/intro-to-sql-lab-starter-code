@@ -143,13 +143,4 @@ WHERE population BETWEEN 91000 AND 92000;
  Klagenfurt            |      91141
 :
 
-SELECT name, population
-FROM cities
-WHERE population BETWEEN 91000 AND 92000;
-world=# SELECT countrycode, name
-FROM cities
-WHERE name = 'Tandil';
- countrycode |  name
--------------+--------
- ARG         | Tandil
-(1 row)
+The answer is San Pedro de la Paz
